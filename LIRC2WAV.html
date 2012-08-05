@@ -1,0 +1,84 @@
+﻿<html>
+    <head>
+        <title>LIRC2WAV</title>
+        <link href="sample.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="lib/air/AIRAliases.js">
+        </script>
+        <script type="text/javascript" src="lib/jquery/jquery-1.4.2.min.js">
+        </script>
+        <script type="text/javascript" src="main.js">
+        </script>
+    </head>
+    <body>
+        <a id="about" href="#">About</a>
+        <table id="alert">
+            <tr>
+                <td>
+                    <div id="alert-message">
+                        alert message, ok?
+                    </div>
+                    <div id="alert-dismiss">
+                        OK
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="about-box">
+            <p>
+                LIRC2WAV <script type="text/javascript">document.write(APP_VERSION);</script>
+            </p>
+            <a href="mailto:vlad-mbx@yandex.ru">vlad-mbx@ya.ru</a>
+            <p>
+					<button class="donate">Поддержать</button>
+                    <br/>
+                    <br/>
+                    <img class="donate" src="yamoney.png" style="cursor: pointer;" />
+            </p>
+        </div>
+        <table id="main" cellspacing="5">
+            <tr>
+                <td id="first">
+                    <p id="list-placeholder">
+                        Выберите файл конфигурации LIRC, чтобы увидеть список доступных комманд
+                    </p>
+                    <p id="list">
+                    </p>
+                </td>
+                <td id="second">
+                    <p>
+                        Исполняемый файл SOX
+                    </p>
+                    <p>
+                        <input type="text" id="text-sox" />
+                        <button class="fileselect" id="select-sox">
+                            &#133;
+                        </button>
+                    </p>
+                    <p>
+                        Файл конфигурации LIRC
+                    </p>
+                    <p>
+                        <input type="text" id="text-lirc" />
+                        <button class="fileselect" id="select-lirc">
+                            &#133;
+                        </button>
+                    </p>
+                    <p>
+                        Папка для WAV-файлов
+                    </p>
+                    <p>
+                        <input type="text" id="text-output" />
+                        <button class="fileselect" id="select-output">
+                            &#133;
+                        </button>
+                    </p>
+                    <p>
+                        <button id="process">
+                            Начать
+                        </button>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

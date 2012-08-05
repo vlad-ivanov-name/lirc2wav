@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    font-size: 13px;
+	background: #999;
+}
+
+p {
+    font-size: 13px;
+}
+
+p#list {
+    display: none;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+p.list-item {
+    padding: 0;
+    margin: 2px;
+}
+
+td#first, td#second {
+    width: 250px;
+    border: 2px solid #a5a5a5;
+    padding: 10px;
+    height: 300px;
+    background: #eee;
+    border-radius: 3px;
+}
+
+td#first {
+    padding: 10px 15px;
+}
+
+td#second {
+    vertical-align: top;
+    padding: 25px 0 0 25px;
+    width: 250px;
+}
+
+p#list-placeholder {
+    text-align: center;
+    height: 160px;
+    margin-top: 140px;
+}
+
+button {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 4px 15px;
+}
+
+button#process {
+    margin-top: 40px;
+}
+
+button.fileselect {
+    height: 19px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    float: right;
+    margin: 2px 44px 0 0;
+}
+
+input[type =
+"text"] {
+    border: 1px solid #888;
+}
+
+table#main {
+    margin: 0 auto;
+    border: 2px solid #888;
+    background: #999;
+}
+
+p#list input[type =
+"checkbox"] {
+    margin: 4px;
+}
+
+button, input[type="submit"] {
+    border: 2px solid #BBB;
+    background: #CBCBCB;
+    cursor: pointer;
+}
+
+table#alert {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+
+div#alert-message {
+    padding: 0 40px;
+}
+
+div#alert-dismiss {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 25px;
+    border: 2px solid #CCC;
+    background: #DEDEDE;
+    padding: 6px 0 0 0;
+    color: #6E6E6E;
+    cursor: pointer;
+}
+
+a#about {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    color: #6E6E6E;
+}
+
+#about-box {
+    display: none;
+}
+
+a {
+	color: #777;	
+}
+
+a:hover {
+	color: #aaa;	
+}
